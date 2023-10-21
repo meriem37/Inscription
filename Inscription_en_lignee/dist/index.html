@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Creative - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">ESTS</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">Acceuil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Inscrire</a></li>
+                        <li class="nav-item"><a  class="nav-link" href="#contact">login </a></li>
+                        <li class="nav-item"><a  class="nav-link" href="deconnexion.php">Déconnexion </a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Inscription en ligne</h1>
+
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5"></p>
+                        <a class="btn btn-primary btn-xl"id="about" href="#portfolio">Bienvenue</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <p class="text-white-75 mb-4"></p>
+                        <a class="btn btn-light btn-xl" href="#contact">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    -->
+
+        <!-- Portfolio
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/finance.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/finance.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">LP-Gestion Comptable et financière</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/computer.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/computer.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">LP-Ingénierie des Systèmes d'Information et Réseaux</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" id="">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/electronique.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/electronique.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">LP-Mécatronique</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/chimie.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/chimie.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">LP-Métrologie,quality,sécurité et environnement</div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    -->
+    <section class="page-section" id="portfolio">
+        <form id="contactForm" method="post" data-sb-form-api-token="API_TOKEN" action="insertion.PHP" enctype="multipart/form-data">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+               <div class="col-lg-8 col-xl-6 text-center">
+                <h2 class="mt-0">Formulaire d'inscription</h2>
+                       <div class="alert alert-primary" role="alert">
+            <!-- Name input-->
+            <div class="form-floating mb-3">
+                <input class="form-control" id="Nom" name="Nom" type="text" placeholder="Entrer le nom..." data-sb-validations="required" />
+                <label>Nom</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" id="Prenom" name="Prenom" type="text" placeholder="Entrer le prenom..." data-sb-validations="required" />
+                <label>Prenom</label>
+
+            </div>
+
+            <div class="form-floating mb-3">
+
+                <label>Sexe</label>
+                <select name="Sexe" id="Sexe">
+                    <option value="femme">Feminin</option>
+                       <option value="homme">Masculin</option>
+                    </select>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" id="tel" name="tel" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                <label>Phone number</label>
+                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+            </div>
+             <div class="form-floating mb-3">
+                <input class="form-control" id="Adresse" name="Adresse" type="text" placeholder="Entrer l'adresse..." data-sb-validations="required" />
+                <label>Adresse</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" id="CIN" name="CIN" type="text" placeholder="Entrer cin..." data-sb-validations="required" />
+                <label>CIN</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" id="CNE" name="CNE" type="text" placeholder="Entrer cne..." data-sb-validations="required" />
+                <label>CNE</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" id="password" name="password" type="password" placeholder="Entrer le password..." data-sb-validations="required" />
+                <label>password</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" id="Email" name="Email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                <label>Email address</label>
+                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" id="DateNaissance" name="DateNaissance" type="date" placeholder="Entrer la date de naissance..." data-sb-validations="required" />
+                <label>dateNaissance</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" id="photo" name="photo" type="file" placeholder="Choisir une photo..." data-sb-validations="required" />
+                <label>photo</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" name="Scan_CIN" type="file" placeholder="choisir le fichier..." data-sb-validations="required" />
+                <label>Piece d'identite</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control"  name="Annee_Bac" type="Integer" placeholder="Entrer l'annee du bac..." data-sb-validations="required" />
+                <label for="name">Annee_Bac</label>
+
+            </div>
+            <div class="">
+            <label for="name">Type du bac</label>
+                <select name="Type_Bac">
+                    <option value="Public">Public</option>
+                       <option value="Prive">Prive</option>
+                       <option value="Militaire">Militaire</option>
+                    </select>
+
+
+
+            </div>
+        <hr>
+            <div class="">
+            <label for="name">Option du  bac</label>
+                <select name="Option_Bac" id="Option_Bac ">
+                    <option value="PC">PC</option>
+                       <option value="SVT">SVT</option>
+                       <option value="SM">SM</option>
+                       <option value="Economie">Economie</option>
+                    </select>
+
+
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" name="Lycee_Origine" type="text" placeholder="Entrer lycee d'origine" data-sb-validations="required" />
+                <label for="name">Lycee_Origine</label>
+
+            </div>
+
+             <div class="form-floating mb-3">
+                <input class="form-control" name="Moy_national" type="text" placeholder="Entrer la moyenne du bac" data-sb-validations="required" />
+                <label for="name">Moyenne_national</label>
+
+            </div>
+
+            <div class="form-floating mb-3">
+                <input class="form-control" name="Moy_regional" type="text" placeholder="Entrer la moyenne du regional" data-sb-validations="required" />
+                <label for="name">Moyenne_regional</label>
+
+            </div>
+            <hr>
+            <div class="">
+            <label for="name">Mention</label>
+                <select name="Mention" id="Mention">
+                    <option value="Passable">Passable</option>
+                       <option value="Assez bien">Assez bien</option>
+                       <option value="Bien">Bien</option>
+                       <option value="trés bien">trés bien</option>
+                    </select>
+
+
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" name="Academie" type="text" placeholder="Entrer l'academie" data-sb-validations="required" />
+                <label for="name">Academie</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" name="Province" type="text" placeholder="Entrer la province" data-sb-validations="required" />
+                <label for="name">Province</label>
+
+            </div>
+
+
+                <label for="name">Selectionner la specialite</label>
+
+
+            <div class="">
+                <label for="name">premier choix</label>
+                <select name="choix1">
+                    <option value="GI" required>Genie informatique</option>
+                    <option value="TM" required>Technique de management</option>
+                    <option value="TIMQ" required>Technique instrumental et management de qualite</option>
+                    <option value="GIM" required>Genie industriel et maintenance</option>
+                    </select>
+            </div>
+            <div class="">
+                <label for="name">Deuxieme choix</label>
+                <select name="choix3">
+                    <option value="GI" required>Genie informatique</option>
+                    <option value="TM" required>Technique de management</option>
+                    <option value="TIMQ" required>Technique instrumental et management de qualite</option>
+                    <option value="GIM" required>Genie industriel et maintenance</option>
+                    </select>
+            </div>
+            <div class="">
+                <label for="name">Troisieme choix</label>
+            <select name="choix2">
+                <option value="GI" required>Genie informatique</option>
+                <option value="TM" required>Technique de management</option>
+                <option value="TIMQ" required>Technique instrumental et management de qualite</option>
+                <option value="GIM" required>Genie industriel et maintenance</option>
+                    </select>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input class="form-control" name="Bac" type="file" placeholder="choisir le fichier..." data-sb-validations="required" />
+                <label for="name">Bac</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" name="Releve_Bac" type="file" placeholder="choisir le fichier..." data-sb-validations="required" />
+                <label for="name">Releve des note du Bac</label>
+
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" name="Releve_Reg" type="file" placeholder="choisir le fichier..." data-sb-validations="required" />
+                <label for="name">Releve des note du regional</label>
+
+            </div>
+            <!-- Submit Button-->
+            <button  name="submitButton" type="submit">Ajouter</button>
+            <button  name="reset" type="reset">reset</button>
+
+        </form>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Login</h2>
+                        <p class="text-muted mb-5">Si vous ete sur de vos informations telecharger le reçu apres le remplissage des informations via le lien ci-dessous!</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <div class="alert alert-primary" role="alert">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN" method="post" action="log.php">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="CNE"name="CNE" type="text" placeholder="Entrer CNE..." data-sb-validations="required" />
+                                <label>CNE</label>
+
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="password" name="password" type="password" placeholder="Entrer le prenom..." data-sb-validations="required" />
+                                <label>password</label>
+
+                            </div>
+
+
+                            <!-- Submit Button-->
+                            <button  name="submitB" type="submit">Submit</button>
+                            <a href="pdf/index.html"> Telecharger</a>
+
+
+                        </form>
+                    </div>
+                </div>
+                </div>
+                </section>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
